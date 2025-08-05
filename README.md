@@ -1,2 +1,1 @@
-# sikn.go.id
-sikn.go.id
+takover by dit
