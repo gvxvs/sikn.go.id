@@ -1,0 +1,24 @@
+User-agent: *
+Allow: /
+
+# XML Sitemap
+Sitemap: http://alexaking.xyz/sitemap.xml
+
+# Block access to admin areas (if any)
+Disallow: /admin/
+Disallow: /private/
+Disallow: /temp/
+
+# Block access to specific file types
+Disallow: *.log$
+Disallow: *.sql$
+Disallow: *.backup$
+
+# Allow crawling of CSS and JS
+Allow: /css/
+Allow: /js/
+Allow: /images/
+Allow: /assets/
+
+# Crawl delay (optional - be nice to servers)
+Crawl-delay: 1
